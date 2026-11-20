@@ -23,7 +23,7 @@ public class CustomizablePlatformerMovement : MonoBehaviour
     
     // Physics and collision
     [SerializeField] private Rigidbody2D rigidbody;
-    [SerializeField] private CircleCollider2D groundCheckCollider;
+    [SerializeField] private Collider2D groundCheckCollider;
     [SerializeField] private LayerMask groundLayer = ~0; // ~0 is referring to EVERY layer.
     
     // Handle input
